@@ -80,3 +80,7 @@ npm i dotenv
 
 ec2-54-215-35-97.us-west-1.compute.amazonaws.com
 
+
+sudo chmod 666 /var/run/docker.sock
+
+ssh -i ec2atuh-socialband.pem ec2-user@ec2-54-215-35-97.us-west-1.compute.amazonaws.com
